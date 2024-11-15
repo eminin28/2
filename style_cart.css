@@ -1,0 +1,130 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 15px;
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.nav a {
+  color: rgb(21, 4, 23);
+  background-color: rgb(230, 104, 59);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  text-decoration: none;
+}
+
+#Halloween {
+  font-size: 50px;
+  background-color: rgb(21, 4, 23);
+  color: rgb(243, 239, 239);
+  padding: 8px;
+}
+
+.product-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+  color: rgb(243, 239, 239);
+  font-family: century-gothic, sans-serif;
+  font-size: 20px;
+  flex-basis: 0;
+	text-align: center;
+ 
+}
+
+.product-header h5 {
+  width: 25%;
+  border-radius: 50px;
+  background-color: rgb(21, 4, 23);
+ 
+}
+
+
+/* .container-products {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid black;
+
+} */
+
+
+
+.products {
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: century-gothic, sans-serif;
+  
+}
+
+
+.product-price, .product-amount, .product-total {
+  width: 25%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.product-name {
+  width: 98px;
+  /* height: 89px; */
+  max-width: 100%;
+
+}
+
+
+
+
+ .product-name, .product-price, .product-amount, .product-total{
+display: flex;
+text-align: center;
+justify-content: center;
+align-content:center;
+align-items: center;
+text-align: center;
+flex-wrap: wrap; 
+   } 
+
+
+
+
+.ggggg {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap; 
+} 
+ 
+.ggggg img{
+  width: 100px;
+
+   }
+
+.product {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
